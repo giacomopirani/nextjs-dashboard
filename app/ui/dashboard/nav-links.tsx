@@ -24,6 +24,8 @@ const links = [
 export default function NavLinks() {
   const pathname = usePathname();
 
+  // TODO: add an active state to the links
+
   return (
     <>
       {links.map((link) => {
